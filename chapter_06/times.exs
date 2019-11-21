@@ -1,5 +1,4 @@
 defmodule Times do
-
   def double(n) do
     n * 2
   end
@@ -11,5 +10,4 @@ defmodule Times do
   def quadruple(number) do
     double(number) * 2
   end
-
 end
