@@ -16,7 +16,7 @@ lista = [1, 2, [4, 5, 6]]
 
 IO.puts d
 IO.puts e
-IO.puts f
+IO.puts f # Prints [4, 5, 6]
 
 # The literal 2 in the pattern matched the corresponding term on the right,
 # so the match succeeds by setting the values of `aa` and `bb` to `1` and `3`
