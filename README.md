@@ -11,7 +11,7 @@ This repo is a collection of scripts created while reading the book **Programmin
 
 ## Run Code
 
-Execute `.exs` files with `elixir command`.
+Execute `.exs` files with `elixir` command.
 
 ## Complementary Study Material
 
