@@ -22,7 +22,7 @@ defmodule Animals do
   end
 
   @doc """
-  randomise takes a list of zoo animals and returns a new randomised list with the same elements
+  Takes a list of zoo animals and returns a new randomised list with the same elements
 
   ## Examples
       iex> zoo = Animals.create_zoo
@@ -68,7 +68,7 @@ defmodule Animals do
   ## Examples
 
       iex> zoo = Animals.create_zoo
-      iex> Animal.save(zoo, "my_animals")
+      iex> Animals.save(zoo, "my_animals")
       :ok
   """
   def save(zoo, filename) do
