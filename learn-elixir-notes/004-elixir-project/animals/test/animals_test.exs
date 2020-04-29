@@ -5,5 +5,7 @@ defmodule AnimalsTest do
   test "randomise" do
   	zoo = Animals.create_zoo
     assert zoo != Animals.randomise(zoo)
+
+    # refute zoo == Animals.randomise(zoo)
   end
 end
